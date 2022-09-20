@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6da245c9-636f-464d-b6b8-9b29706327eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbn/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbn/DBTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbn/ObjectConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sbn/tests/TestRunner.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2F1A9XX0BBWBw3XU7dLGSrLIj0M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/idnkiw/Desktop/demo/RecordToObject/src/main/java",
+    "last_opened_file_path": "C:/Users/idnkiw/Desktop/demo/RecordToObject/src/main/java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\idnkiw\Desktop\demo\RecordToObject\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sbn" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sbn.tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestRunner.simpleTest (3)">
+    <configuration name="TestRunner.simpleTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RecordToObject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sbn.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sbn.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sbn.tests.TestRunner" />
+      <option name="METHOD_NAME" value="simpleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner.simpleTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RecordToObject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sbn.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sbn.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sbn.tests.TestRunner" />
+      <option name="METHOD_NAME" value="simpleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner.simpleTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RecordToObject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sbn.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sbn.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sbn.tests.TestRunner" />
+      <option name="METHOD_NAME" value="simpleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner.simpleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RecordToObject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sbn.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sbn.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sbn.tests.TestRunner" />
+      <option name="METHOD_NAME" value="simpleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestRunner.simpleTest (3)" />
+        <item itemvalue="TestNG.TestRunner.simpleTest (2)" />
+        <item itemvalue="TestNG.TestRunner.simpleTest (1)" />
+        <item itemvalue="TestNG.TestRunner.simpleTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6da245c9-636f-464d-b6b8-9b29706327eb" name="Changes" comment="" />
+      <created>1663649068149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663649068149</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sbn/tests/TestRunner.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
