@@ -1,5 +1,8 @@
 package com.sbn;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Car {
     @DBTable(columnName = "model")
     private String model;
@@ -8,8 +11,13 @@ public class Car {
     @DBTable(columnName = "mfdDate")
     private int mfdYear;
 
-    public Car(String model, String color, int mfdYear) {
+    @DBTable(columnName = "carId")
+    private int carId;
 
+    private List<Owner> ownerList = new ArrayList<>();
+
+    public Car(int carId,String model, String color, int mfdYear) {
+        this.carId = carId;
         this.model = model;
         this.color = color;
         this.mfdYear = mfdYear;
@@ -43,15 +51,34 @@ public class Car {
         this.mfdYear = mfdYear;
     }
 
-   @Override
-   public boolean equals(Object car){
-        Car cr = (Car) car;
+    public List<Owner> getOwnerList() {
+        return ownerList;
+    }
 
-        return this.color.equals(cr.color) && this.model.equals(cr.model) && this.mfdYear == cr.mfdYear;
+    public void setOwnerList(List<Owner> ownerList) {
+        this.ownerList = ownerList;
+    }
+
+    public int getCarId() {
+        return carId;
+    }
+
+    public void setCarId(int carId) {
+        this.carId = carId;
     }
 
     @Override
+   public boolean equals(Object car){
+        Car cr = (Car) car;
+        return this.color.equals(cr.color) && this.model.equals(cr.model) && this.mfdYear == cr.mfdYear && cr.ownerList.equals(this.ownerList) && this.carId == cr.carId;
+    }
+    @Override
     public String toString(){
-        return "model:" + this.model +"color:"+this.color + "mfdYear:" + this.mfdYear;
+        String owners =" Owners: [";
+        for (Owner owner : ownerList) {
+            owners += ("{ownerId:"+ owner.getOwnerId() +" name:" + owner.getName() + " birthDate:" + owner.getCity() + " carId:" +  owner.getCarId() + "},");
+        }
+        owners += "]";
+        return "model:" + this.model +" color:"+this.color + " mfdYear:" + this.mfdYear + owners;
     }
 }

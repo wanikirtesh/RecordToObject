@@ -4,27 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6da245c9-636f-464d-b6b8-9b29706327eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbn/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbn/DBTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbn/ObjectConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sbn/tests/TestRunner.java" afterDir="false" />
+    <list default="true" id="6da245c9-636f-464d-b6b8-9b29706327eb" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbn/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbn/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbn/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbn/ObjectConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbn/ObjectConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sbn/tests/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sbn/tests/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,7 +56,7 @@
       <recent name="com.sbn.tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestRunner.simpleTest (3)">
+  <component name="RunManager" selected="TestNG.TestRunner.simpleTest">
     <configuration name="TestRunner.simpleTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RecordToObject" />
       <extension name="coverage">
@@ -130,10 +131,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRunner.simpleTest" />
         <item itemvalue="TestNG.TestRunner.simpleTest (3)" />
         <item itemvalue="TestNG.TestRunner.simpleTest (2)" />
         <item itemvalue="TestNG.TestRunner.simpleTest (1)" />
-        <item itemvalue="TestNG.TestRunner.simpleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +147,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663649068149</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1663651332644</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663651332644</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,13 +168,27 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/sbn/tests/TestRunner.java</url>
-          <line>19</line>
+          <line>21</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sbn/Car.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sbn/Owner.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

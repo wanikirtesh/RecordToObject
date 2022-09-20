@@ -37,9 +37,13 @@ public class ObjectConverter {
         return list;
     }
 
-    public static <T> List<T> getObjectListFromJsonArray(Class<T> convertType,String jsonData) throws JsonProcessingException {
+    public static <T> List<T> getObjectListFromJsonArray(Class<T> convertType,String jsonData) {
         ObjectMapper mapper = new ObjectMapper();
-        return mapper.readValue(jsonData, mapper.getTypeFactory().constructCollectionType(List.class, convertType));
+        try {
+            return mapper.readValue(jsonData, mapper.getTypeFactory().constructCollectionType(List.class, convertType));
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     private static void loadResultSetIntoObject(ResultSet resultSet, Object object)
@@ -48,13 +52,15 @@ public class ObjectConverter {
         for (Field field : zClass.getDeclaredFields()) {
             field.setAccessible(true);
             DBTable column = field.getAnnotation(DBTable.class);
-            Object value = resultSet.getObject(column.columnName());
-            Class<?> type = field.getType();
-            if (isPrimitive(type)) {
-                Class<?> boxed = boxPrimitiveClass(type);
-                value = boxed.cast(value);
+            if(column!=null) {
+                Object value = resultSet.getObject(column.columnName());
+                Class<?> type = field.getType();
+                if (isPrimitive(type)) {
+                    Class<?> boxed = boxPrimitiveClass(type);
+                    value = boxed.cast(value);
+                }
+                field.set(object, value);
             }
-            field.set(object, value);
         }
     }
 
