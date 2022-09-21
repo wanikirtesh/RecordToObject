@@ -51,8 +51,8 @@ public class ObjectConverter {
         Class<?> zClass = object.getClass();
         for (Field field : zClass.getDeclaredFields()) {
             field.setAccessible(true);
-            DBTable column = field.getAnnotation(DBTable.class);
-            if(column!=null) {
+            if(field.isAnnotationPresent(DBTable.class)) {
+                DBTable column = field.getAnnotation(DBTable.class);
                 Object value = resultSet.getObject(column.columnName());
                 Class<?> type = field.getType();
                 if (isPrimitive(type)) {
